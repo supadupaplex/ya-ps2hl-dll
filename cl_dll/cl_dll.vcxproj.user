@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>D:\Games\HL\Xash3D\hl.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-game ps2hl -dev -console +map c1a0d</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:\Games\HL\Xash3D</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommand>D:\Games\HL\Xash3D\hl.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-game ps2hl -dev -console</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\..\..</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
