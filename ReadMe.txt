@@ -1,4 +1,5 @@
 This is the source code of "Yet another PS2 Half-Life PC port" in form of Visual Studio 2015 project.
+ModDB: https://www.moddb.com/mods/yet-another-ps2-half-life-pc-port
 
 It contains some fixes and hacks to the original code as well as new entities:
 "item_healthcharger"	- health charger
